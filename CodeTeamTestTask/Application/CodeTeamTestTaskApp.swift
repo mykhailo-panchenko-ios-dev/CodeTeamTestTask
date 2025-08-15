@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CodeTeamTestTaskApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SceneFactory.makeMainScene()
         }
     }
 }
